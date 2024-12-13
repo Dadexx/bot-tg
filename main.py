@@ -1,9 +1,11 @@
 import os
 import requests
+from keep_alive import keep_alive
 from bs4 import BeautifulSoup
 from pytrends.request import TrendReq
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from telegram import Update
+keep_alive()
 
 # Funzione per ottenere gli hashtag di TikTok
 def get_tiktok_hashtags():
