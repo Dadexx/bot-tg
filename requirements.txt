@@ -1,5 +1,4 @@
 requests
-BeautifulSoup
 google-trends
 beautifulsoup4
 telegram
